@@ -1,4 +1,5 @@
  class myThread implements Runnable{
+
       public void run(){
         System.out.println("hello");
       }
@@ -11,11 +12,8 @@ class Main {
         // Thread t2 = new Thread(task);
         t1.start();
         // t2.start();
-        }   
+        }
 }
-
-
-
 class Main {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -35,5 +33,6 @@ class Main {
         System.out.println(skip);
         System.out.println(limit);
         System.out.println(sort);
+
     }
 }
